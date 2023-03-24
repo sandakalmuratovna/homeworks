@@ -10,7 +10,7 @@ public class Main {
         Book martinEden = new Book("Martin Eden", jackLondon, 1909);
 
         System.out.println(abayJoly.getBookName());
-        System.out.println(abayJoly.getAuthor());
+        System.out.println(abayJoly.getAuthor().getName() + " " + abayJoly.getAuthor().getSurname());
         System.out.println(abayJoly.getPublishingYear());
 
         System.out.println(martinEden.getBookName());
