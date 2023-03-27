@@ -33,12 +33,12 @@ public class Book {
             return false;
         }
         Book b2 = (Book) other;
-        return bookName.equals(b2.bookName) && author.equals(b2.author);
+        return bookName.equals(b2.bookName) && author.equals(b2.author) && publishingYear==b2.publishingYear;
     }
 
     @Override
     public int hashCode() {
-        return java.util.Objects.hash(bookName, author);
+        return java.util.Objects.hash(bookName, author, publishingYear);
     }
 
     @Override
