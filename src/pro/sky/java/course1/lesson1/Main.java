@@ -10,6 +10,8 @@ public class Main {
         Book abayJoly2 = new Book("Abay joly", mukhtarAuezov, 1947);
 
         System.out.println(martinEden.getAuthor());
+        System.out.println(martinEden.getBookName());
+        System.out.println(martinEden.getPublishingYear());
 
 
         System.out.println(abayJoly.equals(abayJoly2));
