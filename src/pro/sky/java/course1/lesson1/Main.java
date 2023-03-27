@@ -7,12 +7,16 @@ public class Main {
 
         Author jackLondon = new Author("Jack", "London");
         Book martinEden = new Book("Martin Eden", jackLondon, 1909);
-        Book abayJoly2 = new Book("Abay joly", mukhtarAuezov, 1947);
+        Book abayJoly2 = new Book("Abay joly", mukhtarAuezov, 1942);
 
         System.out.println(martinEden.getAuthor());
         System.out.println(martinEden.getBookName());
         System.out.println(martinEden.getPublishingYear());
 
 
+        System.out.println(abayJoly.equals(abayJoly2));
+        System.out.println(abayJoly.equals(martinEden));
+
+        System.out.println(abayJoly);
     }
 }
