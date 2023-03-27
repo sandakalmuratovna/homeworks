@@ -13,6 +13,7 @@ public class Main {
         System.out.println(martinEden.getBookName());
         System.out.println(martinEden.getPublishingYear());
 
+
         System.out.println(abayJoly.equals(abayJoly2));
         System.out.println(abayJoly.equals(martinEden));
 
